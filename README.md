@@ -10,7 +10,9 @@ LINKS TO DATASET
 ----------------------------------------------------------------
 
 A. Dataset archive link: https://data.ny.gov/Transportation/MTA-NaviLens-Usage/kag2-r3f3/about_data
+
 B. Final Dataset DOI: https://doi.org/10.21949/ph7t-4944
+
 C. Data Management Plan DOI: https://doi.org/10.48321/D1R67H
 
 
