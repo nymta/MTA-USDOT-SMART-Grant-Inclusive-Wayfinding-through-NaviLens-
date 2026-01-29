@@ -1,0 +1,93 @@
+{
+  "$schema": "https://resources.data.gov/schemas/dcat-us/v1.1/schema/catalog.json",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "@type": "dcat:Catalog",
+  "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+  "dataset": [
+    {
+      "@type": "dcat:Dataset",
+      "accessLevel": "public",
+      "bureauCode": [
+        "021:04"
+      ],
+      "contactPoint": {
+        "fn": "Mira Philipson",
+        "hasEmail": "mailto:miriam.philipson@mtahq.org",
+        "@type": "vcard:Contact"
+      },
+      "dataQuality": true,
+      "description": "Navilens usage data contains records of scan events (each row represents a time a NaviLens code was scanned). Scan records include the code identifier, the type of asset scanned (e.g., bus stop, bus vehicle, subway station, train car, or vehicle feature), the app used (NaviLens vs. NaviLens GO), the device language setting at time of scan, and timestamps. For certain asset types, scan events are also enriched with location fields such as bus stop identifiers and names or subway station identifiers and names. This data supports evaluation of the NaviLens deployment and related project reporting, including work funded through the USDOT SMART Grant.",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "accessURL": "https://doi.org/10.21949/phyn-b869",
+          "title": "MTA_NaviLens_Usage_20260115.csv",
+          "format": "CSV",
+          "mediaType": "text/csv",
+          "description": "The .csv, Comma Separated Value, file is a simple format that is designed for a database table and supported by many applications. The .csv file is often used for moving tabular data between two different computer programs, due to its open format. The most common software used to open .csv files are Microsoft Excel and RecordEditor, (for more information on .csv files and software, please visit https://www.file-extensions.org/csv-file-extension)."
+        },
+        {
+          "@type": "dcat:Distribution",
+          "accessURL": "https://doi.org/10.21949/phyn-b869",
+          "title": "MTA_NaviLensUsage_DataDictionary.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "description": "The Portable Document Format (PDF) file format was developed by Adobe Systems and represents two-dimensional documents in a device-independent and resolution-independent format. There are PDF readers available on many platforms, such as Xpdf, Foxit, and Adobe's own Adobe Acrobat Reader. PDF readers/viewers or online services for basic functions are generally free (for more information on .pdf files and software, please visit https://www.file-extensions.org/pdf-file-extension)."
+        },
+        {
+          "@type": "dcat:Distribution",
+          "accessURL": "https://doi.org/10.21949/phyn-b869",
+          "title": "MTA_NaviLensUsage_Overview.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "description": "The Portable Document Format (PDF) file format was developed by Adobe Systems and represents two-dimensional documents in a device-independent and resolution-independent format. There are PDF readers available on many platforms, such as Xpdf, Foxit, and Adobe's own Adobe Acrobat Reader. PDF readers/viewers or online services for basic functions are generally free (for more information on .pdf files and software, please visit https://www.file-extensions.org/pdf-file-extension)."
+        },
+        {
+          "@type": "dcat:Distribution",
+          "accessURL": "https://doi.org/10.21949/phyn-b869",
+          "title": "README_MTA_NaviLensUsage.txt",
+          "format": "TXT",
+          "mediaType": "text/plain",
+          "description": "The .txt file type is a common text file, which can be opened with a basic text editor. The most common software used to open .txt files are Microsoft Windows Notepad, Sublime Text, Atom, and TextEdit (for more information on .txt files and software, please visit https://www.file-extensions.org/txt-file-extension)."
+        }
+      ],
+      "format": "ZIP",
+      "identifier": "https://doi.org/10.21949/phyn-b869",
+      "issued": "2026-01-09",
+      "keyword": [
+        "Accessibility",
+        "Assistive Technology",
+        "Wayfinding"
+      ],
+      "landingPage": "https://doi.org/10.21949/phyn-b869",
+      "language": [
+        "en"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modified": "2026-01-09",
+      "policyStatement": "This dataset was made public under the requirements enumerated in the U.S. Department of Transportation's 'Plan to Increase Public Access to the Results of Federally-Funded Scientific Research' Version 1.1 <https://doi.org/10.21949/1520559> and guidelines suggested by the DOT Public Access website <https://doi.org/10.21949/1503647>, in effect and current as of December 03, 2020.",
+      "policyURL": "https://doi.org/10.21949/1520559 , https://doi.org/10.21949/1503647",
+      "programCode": [
+        "021:053"
+      ],
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Strengthening Mobility and Revolutionizing Transportation (SMART) Program",
+        "subOrganizationOf": {
+          "@type": "org:Organization",
+          "name": "Department of Transportation",
+          "subOrganizationOf": {
+            "@type": "org:Organization",
+            "name": "United States Government"
+          }
+        }
+      },
+      "references": [
+        "https://doi.org/10.21949/phyn-b869"
+      ],
+      "spatial": "United States",
+      "title": "MTA NaviLens Usage Data",
+      "webService": "null"
+    }
+  ]
+}
