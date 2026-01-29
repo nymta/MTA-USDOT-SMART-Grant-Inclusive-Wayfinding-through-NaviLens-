@@ -173,7 +173,7 @@ Update Log:
 2026-01-16: Original file created
 
 ______________________________________________________________________________________________________________________________________________________________________________________ 
-
+______________________________________________________________________________________________________________________________________________________________________________________
 
 README for MTA NaviLens Feedback Survey dataset. 
 Strengthening Mobility and Revolutionizing Transportation (SMART) Program, U.S. Department of Transportation (USDOT)
@@ -184,7 +184,9 @@ LINKS TO DATASET
 ----------------------------------------------------------------
 
 A. Dataset archive link: https://data.ny.gov/Transportation/MTA-NaviLens-Feedback-Survey/q2wi-uth2/about_data
+
 B. Final Dataset DOI: https://doi.org/10.21949/ph7t-4944
+
 C. Data Management Plan DOI: https://doi.org/10.48321/D1R67H
 
 
